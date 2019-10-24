@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="scoreboard">
+            <h3>Player Score: <span id="score-player">0</span> | CPU Score: <span id="score-cpu">0</span></h3>
+        </div>
+        <div class="container">
+            <div>
+                <h1 id="result">Result</h1>
+            </div>
+            <div class="container-btn">
+                <div id="rock-btn" class="button">Rock</div>
+                <div id="paper-btn" class="button">Paper</div>
+                <div id="scissors-btn" class="button">Scissors</div>
+
+            </div>
+        </div>
+        <footer>
+            <div id="quit-btn" class="button">Quit Game</div>
+        </footer>
+    </body>
+
+    <script type="text/javascript">
+       document.getElementById("quit-btn").onclick = function () {
+        location.href = "index.html"};
+     </script>
+     <script src="jscript.js"></script> 
+</html>
