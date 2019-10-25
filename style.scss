@@ -6,8 +6,6 @@ body{
     color: #fff;
 }
 
-
-
 .container{
     height: 720px;
     display: flex;
@@ -31,25 +29,34 @@ body{
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.1em;
-    background-color: orange;
-    
-    
-    
+    background-color: rgb(107, 202, 197);
 }
 
 h1{
     font-size: 4em;
-        
 }
-
 
 #start-btn{
     margin-top: 100px;
     background-color: green;
 }
 
+#reset-btn{
+    background-color: orange;
+    margin-right: 30px;
+}
+
 #quit-btn{
     background-color: red;
+}
+
+#scoreboard{
+    display: inline-block;
+    background-color: #4d3fcc ;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: 1px solid rgba($color: rgb(0, 0, 0), $alpha: 0.5);
 }
 
 footer{

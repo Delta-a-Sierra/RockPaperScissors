@@ -22,7 +22,7 @@ body {
   border-radius: 5px;
   font-weight: bold;
   font-size: 1.1em;
-  background-color: orange; }
+  background-color: #6bcac5; }
 
 h1 {
   font-size: 4em; }
@@ -31,8 +31,20 @@ h1 {
   margin-top: 100px;
   background-color: green; }
 
+#reset-btn {
+  background-color: orange;
+  margin-right: 30px; }
+
 #quit-btn {
   background-color: red; }
+
+#scoreboard {
+  display: inline-block;
+  background-color: #4d3fcc;
+  padding: 10px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.5); }
 
 footer {
   position: absolute;
