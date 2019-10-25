@@ -1,0 +1,64 @@
+$drkpurple: #090057;
+
+body{
+    background-color: $drkpurple;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+
+
+.container{
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-btn{
+    width: 30%;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.button{
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: orange;
+    
+    
+    
+}
+
+h1{
+    font-size: 4em;
+        
+}
+
+
+#start-btn{
+    margin-top: 100px;
+    background-color: green;
+}
+
+#quit-btn{
+    background-color: red;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    width: 95%;
+   
+    div{
+        float:right;
+    }
+}
